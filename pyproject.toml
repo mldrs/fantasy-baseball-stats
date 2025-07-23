@@ -1,0 +1,12 @@
+[project]
+name = "syndicate_yahoo_data"
+version = "0.1.0"
+description = "My Yahoo Fantasy MLB Dashboard for Syndicate"
+authors = [{ name = "Joost Mulders" }]
+dependencies = [
+    "yfpy",
+    "python-dotenv"
+]
+
+[tool.setuptools]
+packages = ["syndicate_yahoo_data"]
