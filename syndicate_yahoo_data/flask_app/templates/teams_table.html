@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fantasy Teams</title>
+  <style>
+    body { font-family: sans-serif; background: #f5f5f5; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; background: white; }
+    th, td { padding: 10px; border: 1px solid #ccc; text-align: left; }
+    th { background-color: #eee; }
+  </style>
+</head>
+<body>
+  <h1>Fantasy Teams</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>League</th>
+        <th>Season</th>
+        <th>Team Name</th>
+        <th>Manager</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for team in teams %}
+      <tr>
+        <td>{{ team.league }}</td>
+        <td>{{ team.season }}</td>
+        <td>{{ team.teamname }}</td>
+        <td>{{ team.manager }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>
