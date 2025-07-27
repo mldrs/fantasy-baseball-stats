@@ -1,6 +1,6 @@
 # 🧾 syndicate_yahoo_data
 
-A Python project that connects to the Yahoo Fantasy Sports API and extracts data such as your fantasy basebakk teams and matchups. Data can be saved in JSON format.
+A Python project that connects to the Yahoo Fantasy Sports API and extracts data such as your fantasy baseball teams and matchups. Data can be saved in JSON format.
 
 ---
 
