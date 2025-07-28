@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 from yfpy.query import YahooFantasySportsQuery
 from syndicate_yahoo_data.auth import get_league_id
